@@ -66,10 +66,10 @@ public class PersonalTrainer : MonoBehaviour
                 Debug.Log("Error. Solo hay tres tipos de entrenamiento, Fuerza, Cardio o Recreativo. Ademas de que tienen que estar bien escritos (mayus en la primera letra). Elija alguno de ellos.");
                 return;
             }
-            Debug.Log("." + tipoDeEntrenamiento);
-            Debug.Log("." + cantidadDeHoras);
-            Debug.Log("." + precioFinal);
-            Debug.Log("." + precioDescuento);
+            Debug.Log(". " + tipoDeEntrenamiento);
+            Debug.Log(". " + cantidadDeHoras);
+            Debug.Log(". " + precioFinal);
+            Debug.Log(". " + precioDescuento);
         }
     }
 
